@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.10;
 
-import "forge-std/Test.sol";
+import "@forge-std-1.9.2/Test.sol";
 import "../src/ZuniswapV2Factory.sol";
 import "../src/ZuniswapV2Pair.sol";
 import "../src/ZuniswapV2Router.sol";
