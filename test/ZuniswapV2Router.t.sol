@@ -47,7 +47,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address pairAddress = factory.pairs(address(tokenA), address(tokenB));
@@ -66,7 +67,8 @@ contract ZuniswapV2RouterTest is Test {
                 1 ether,
                 1 ether,
                 1 ether,
-                address(this)
+                address(this),
+                1
             );
 
         assertEq(amountA, 1 ether);
@@ -115,7 +117,8 @@ contract ZuniswapV2RouterTest is Test {
                 2 ether,
                 1 ether,
                 1.9 ether,
-                address(this)
+                address(this),
+                1
             );
 
         assertEq(amountA, 1 ether);
@@ -148,7 +151,8 @@ contract ZuniswapV2RouterTest is Test {
             2 ether,
             1 ether,
             2 ether,
-            address(this)
+            address(this),
+            1
         );
     }
 
@@ -177,7 +181,8 @@ contract ZuniswapV2RouterTest is Test {
             0.9 ether,
             2 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
     }
 
@@ -206,7 +211,8 @@ contract ZuniswapV2RouterTest is Test {
                 0.9 ether,
                 1.7 ether,
                 1 ether,
-                address(this)
+                address(this),
+                1
             );
         assertEq(amountA, 1.8 ether);
         assertEq(amountB, 0.9 ether);
@@ -224,7 +230,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address pairAddress = factory.pairs(address(tokenA), address(tokenB));
@@ -262,7 +269,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address pairAddress = factory.pairs(address(tokenA), address(tokenB));
@@ -301,7 +309,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address pairAddress = factory.pairs(address(tokenA), address(tokenB));
@@ -332,7 +341,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address pairAddress = factory.pairs(address(tokenA), address(tokenB));
@@ -364,7 +374,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         router.addLiquidity(
@@ -374,7 +385,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address[] memory path = new address[](3);
@@ -414,7 +426,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         router.addLiquidity(
@@ -424,7 +437,8 @@ contract ZuniswapV2RouterTest is Test {
             1 ether,
             1 ether,
             1 ether,
-            address(this)
+            address(this),
+            1
         );
 
         address[] memory path = new address[](3);
