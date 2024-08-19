@@ -47,4 +47,13 @@ contract ZuniswapV2Factory {
 
         emit PairCreated(token0, token1, pair, allPairs.length);
     }
+
+    // pairs alias to match the IUniswapV2Factory interface
+    function getPair(address tokenA, address tokenB)
+        external
+        view
+        returns (address)
+    {
+        return pairs[tokenA][tokenB];
+    }
 }
